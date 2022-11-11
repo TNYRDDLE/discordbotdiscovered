@@ -26,8 +26,8 @@ client.on('messageCreate', message => {
  
     if(command === 'ping'){
         message.channel.send('pong!')
-    } else if(command === 'hello'){
-        message.channel.send('hello world')
+    } else if(command === 'memekoning'){
+        message.channel.send('Vooralsnog Roald, maar kwantiteit over kwaliteit?')
     }
 });
  
